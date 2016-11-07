@@ -1,6 +1,6 @@
 #include "common.h"
 
-namespace tdb {
+namespace pepper {
 
 hash<string> string_hash;
 
@@ -88,10 +88,10 @@ void DoMain() {
   }
 }
 
-}  // namespace tdb
+}
 
 int main(int argc, char* argv[]) {
   google::ParseCommandLineFlags(&argc, &argv, true);
   google::InitGoogleLogging(argv[0]);
-  tdb::DoMain();
+  pepper::DoMain();
 }

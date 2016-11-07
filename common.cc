@@ -1,6 +1,6 @@
 #include "common.h"
 
-namespace tdb {
+namespace pepper {
 
 // HasPrefix returns whether a begins with b.
 bool HasPrefix(const string& a, const string& b) {
@@ -8,4 +8,4 @@ bool HasPrefix(const string& a, const string& b) {
          equal(b.begin(), b.end(), a.begin());
 }
 
-}  // namespace tdb
+}
