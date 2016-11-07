@@ -4,7 +4,7 @@
 
 namespace pepper {
 
-template<class K, class V>
+/*template<class K, class V>
 class MapShard {
  public:
   MapShard() {}
@@ -37,6 +37,6 @@ class ShardedMap {
 
  private:
   vector<MapShard<K, V>> shard_;
-};
+};*/
 
 }
